@@ -1,0 +1,45 @@
+.back-img-container
+{
+	height: 70px;
+}
+.back-img-container p
+{
+  color: white;
+  font-size: 32px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+main
+{
+	margin-top: 50px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 990px;
+	height: 1000px;
+}
+main a
+{
+	margin: 0 30px 60px 0;
+	height: 199px;
+    width: 310px;
+    display: block;
+    float: left;
+    color: black;
+    text-decoration: none;
+}
+main a:nth-child(3n)
+{
+	margin: 0;
+}
+footer
+{
+	clear: left;
+	position: relative;
+	top: 80px;
+}
